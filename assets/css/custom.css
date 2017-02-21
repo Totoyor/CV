@@ -81,8 +81,14 @@ h1, h2, h3, h4, h5, h6 {
 /*** Footer ***/
 .footer {
  background:#d8d8d8;
- padding:15px 15px;
+ padding: 5px 15px;
  border-top:1px solid #d9d9d9;
  font-size:11px;
  color:#777;
+}
+.credentials {
+    line-height: 60px;
+}
+.social-icons {
+    line-height: 60px;
 }
