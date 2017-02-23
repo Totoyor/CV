@@ -6,6 +6,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
 }
 
+.link-in-btn {
+    color: white;
+    text-decoration: none;
+}
+.link-in-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
 /*** Header ***/
 .navbar {
     margin-bottom: 0px;
@@ -15,6 +24,16 @@ h1, h2, h3, h4, h5, h6 {
 /*** Jumbotron ***/
 .jumbo-bg {
     margin-bottom: 0;
+}
+.title-jumbotron {
+    padding-bottom: 30px;
+}
+.img-profile {
+    width: 240px;
+    height: 240px;
+}
+.text-jumbotron {
+    padding-top: 30px;
 }
 
 /*** Bloc projet 1 ***/
@@ -38,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Bloc projet 2 ***/
 .project_2 {
-    background-color: #24292E;
+    background-color: rgba(123, 165, 241, 0.80);
     padding-bottom: 30px;
     color: white;
 }
@@ -60,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Bloc projet 3 ***/
 .project_3 {
-    background-color: #eee;
+    background-color: rgba(71, 144, 39, 0.5);
     padding-bottom: 30px;
 }
 .logo-project_3 {
@@ -72,9 +91,33 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 .btn-project-3:hover {
-    background-color: #69B244;
+    background-color: rgba(42, 172, 105, 0.75);
     border: none;
     color: white;
+}
+
+/*** CV ***/
+.bg-cv {
+    background-color: #fff;
+    padding: 30px 0px;
+}
+.text-cv {
+    line-height: 44px;
+}
+.btn-cv {
+    background-color: #5498d4;
+    border: none;
+    color: white;
+}
+.btn-cv:hover {
+    background-color: #71a4d1;
+    border: none;
+    color: white;
+}
+
+/*** Contact ****/
+.bg-contact {
+    background-color: #F4F4F4;
 }
 
 
@@ -90,5 +133,5 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 60px;
 }
 .social-icons {
-    line-height: 60px;
+    padding-top: 15px;
 }
