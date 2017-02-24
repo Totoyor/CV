@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     text-decoration: none;
 }
-.link-in-btn:hover {
+.link-in-btn:hover, .link-in-btn:focus, .link-in-btn:active {
     color: white;
     text-decoration: none;
 }
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     color: white;
 }
-.btn-project-1:hover {
+.btn-project-1:hover, .btn-project-1:focus, .btn-project-1:active {
     background-color: #71a4d1;
     border: none;
     color: white;
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     color: white;
 }
-.btn-project-2:hover {
+.btn-project-2:hover, .btn-project-2:focus, .btn-project-2:active {
     background-color: #F45154;
     border: none;
     color: white;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     color: white;
 }
-.btn-project-3:hover {
+.btn-project-3:hover, .btn-project-3:focus, .btn-project-3:active {
     background-color: rgba(42, 172, 105, 0.75);
     border: none;
     color: white;
