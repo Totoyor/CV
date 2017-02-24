@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -30,14 +30,14 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-			      	<li>
+			      	<li class="active">
 			      		<a href="index.html">Accueil</a>
 			      	</li>
-			      	<li class="/active">
+			      	<li>
 			      		<a href="#project_1">Projets</a>
 			      	</li>
 			        <li>
-			        	<a href="#">CV</a>
+			        	<a href="cv.html">CV</a>
 			        </li>
 			        <li>
 			        	<a href="#contact">Contact</a>
@@ -63,7 +63,7 @@
 			      <h2>Volunteers</h2><br>
 			      <h4>Volunteers est un projet de mise en relation de bénévoles et d'organisateurs d'évênements.</h4><br>
 			      <p>Le but est de permettre aux organisateurs d’événements de créer un espace dédié à leur événement et de pouvoir expliquer leurs besoins en terme de bénévoles. Pareillement, les bénévoles pourront facilement postuler à de multiples événements et avoir un seul et même point de contact. Les organisateurs pourront noter et laisser un avis aux bénévoles ayant participé à leurs événements afin de faciliter la tâche aux organisateurs lors de prochains évènements.</p>
-			      <br><button class="btn btn-default btn-lg btn-project-1"><a class="link-in-btn" href="nicolasmimault.com/Volunteers-master/">Voir le projet</a></button>
+			      <br><button class="btn btn-default btn-lg btn-project-1"><a class="link-in-btn" href="nicolasmimault.com/Volunteers-master/" target="_blank">Voir le projet</a></button>
 			    </div>
 			    <div class="col-sm-4 text-center">
 			      <img src="assets/images/logo_volonteers3.svg" alt="logo" class="logo-project_1">
@@ -99,10 +99,10 @@
 			      <h2>Green-Oikos</h2><br>
 			      <h4>Green-Oikos est un site institutionnel fictif.</h4><br>
 			      <p>Green Oikos est une organisation écologique qui propose des infrastructures autonomes aux particuliers mais aussi aux pays du tiers monde. Grâce à notre savoir-faire acquis à travers nos projets en Europe, nous investissons dans l’entrepreneuriat social et construisons des infrastructures humanitaires et durables. Ces dernières sont construites avec des matériaux recyclés et collectés auprès de ses entreprises partenaires.</p>
-			      <br><button class="btn btn-default btn-lg btn-project-3">Voir le projet</button>
+			      <br><button class="btn btn-default btn-lg btn-project-3"><a class="link-in-btn" href="http://vanwelde.etudiant-eemi.com/perso/Green-Oikos/" target="_blank">Voir le projet</a></button>
 			    </div>
 			    <div class="col-sm-4 text-center">
-			      <img src="assets/images/logo-GO.png" alt="logo" class="logo-project_3">
+			      <img src="assets/images/Logo-green-oikos.png" alt="logo" class="logo-project_3">
 			    </div>
 			  </div>
 			</div>
@@ -116,7 +116,7 @@
 					<span class="text-cv">Voir mon parcours :</span>
 					</div>
 					<div class="col-sm-5 col-sm-offset-1">
-							<button class="btn btn-default btn-lg btn-cv">Voir mon C.V.</button>
+							<button class="btn btn-default btn-lg btn-cv"><a class="link-in-btn" href="cv.html">C.V.</a></button>
 					</div>
 				</div>
 			</div>
@@ -131,25 +131,27 @@
 			    <div class="col-sm-5">
 			      <p>Contactez-moi :</p>
 			      <p><span class="glyphicon glyphicon-map-marker"></span> Lille, France</p>
-			      <p><span class="glyphicon glyphicon-phone"></span> +336 31 97 26 05</p>
+			      <p><span class="glyphicon glyphicon-phone"></span> +336 31 97 26 XX</p>
 			      <p><span class="glyphicon glyphicon-envelope"></span> vanweldenthomas(at)live.fr</p>
 			    </div>
-			    <div class="col-sm-7 slideanim">
+			    <form action="https://formspree.io/vanweldenthomas@live.fr" method="POST">
+			    <div class="col-sm-7">
 			      <div class="row">
 			        <div class="col-sm-6 form-group">
 			          <input class="form-control" id="name" name="name" placeholder="Nom" type="text" required>
 			        </div>
 			        <div class="col-sm-6 form-group">
-			          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+			          <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required>
 			        </div>
 			      </div>
 			      <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea><br>
 			      <div class="row">
 			        <div class="col-sm-12 form-group">
-			          <button class="btn btn-default btn-lg btn-cv" type="submit"><i class="fa fa-send " aria-hidden="true"></i> Envoyer</button>
+			          <input class="btn btn-default btn-lg btn-cv" type="submit" value="Envoyer"></button>
 			        </div>
 			      </div>
 			    </div>
+			    </form>
 			  </div>
 			</div>
 		</div>

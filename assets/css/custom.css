@@ -3,7 +3,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive, 'Open Sans', sans-serif;
 }
 
 .link-in-btn {
@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {
 .link-in-btn:hover {
     color: white;
     text-decoration: none;
+}
+.blue {
+    color:#50a3d9;
+}
+.grey {
+    color: grey;
 }
 
 /*** Header ***/
@@ -119,6 +125,16 @@ h1, h2, h3, h4, h5, h6 {
 .bg-contact {
     background-color: #F4F4F4;
 }
+
+/*** Page CV ***/
+.photo-cv {
+    width: 150px;
+    height: 150px;
+}
+.titles-cv {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 
 /*** Footer ***/
